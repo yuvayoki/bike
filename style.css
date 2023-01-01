@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    z-index: 1000;
+    
+}
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-style: capitalize;
+    display:block; 
+    position: inherit;
+    
+}
+.heading{
+    background-color: bisque;
+    
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5rem;
+    color: brown;
+    margin-top: -10px;
+    margin-left: -2rem;
+  
+}
+.heads{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: -6rem;
+    
+}
+.heads a:hover{
+    color:white ;
+}
+.heads a{
+    color: black;
+    margin-left: 10rem;
+    
+}
+ /* section*/
+ .bikers{
+    padding: 20rem;
+    text-align: center;
+    background-image: url("bikes.jpg");
+    width: 100%;
+    background-size: cover;  
+ }
+ .tittle h3{
+    color: black;
+    margin-top: -10rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 30px;
+ }
+ /*helmets*/
+ .container2 h2{
+    text-align: center;
+ }
+.container2 {
+     padding: 2rem;
+     position: inherit;
+     width:20%;
+     margin-left: 40rem;
+    
+}
+.helmets h2{
+    color: black;
+    background-color: red;
+     padding: 2rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    
+}
+/*products*/
+.ctn .products{
+    margin-left: 15rem;
+    width: 100%;
+    
+}
+.ctn button{
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 45rem;
+    background-color: orange;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.ctn button:hover{
+    background-color: black;
+    color: white;
+
+}
+.deatils{
+    text-align: center;
+    padding: 10rem;
+    
+}
+.deatils h1{
+    color: black;
+    word-spacing: 10px;
+    padding-bottom: 5px;
+    
+}
+.deatils h1 span{
+    color: rgb(246, 11, 11);
+}
+.ctn .products{
+    margin-left: 15rem;
+   margin-top: 1rem;
+}
+
+    
+    
+
